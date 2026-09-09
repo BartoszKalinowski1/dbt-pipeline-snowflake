@@ -1,4 +1,4 @@
-# Jaffle Shop — dbt + Snowflake Analytics Engineering Pipeline
+# dbt + Snowflake Analytics Engineering Pipeline
 
 Project demonstrating an end-to-end analytics engineering workflow: raw e-commerce and payments data transformed into clean, tested, documented data marts using **dbt (Fusion engine)** on **Snowflake**.
 
@@ -6,8 +6,8 @@ Project demonstrating an end-to-end analytics engineering workflow: raw e-commer
 
 The project models a fictional online store ("Jaffle Shop") with two raw data sources:
 
-- **`jaffle_shop`** — customers and orders (operational data)
-- **`stripe`** — payment transactions
+- **`jaffle_shop`** - customers and orders (operational data)
+- **`stripe`** - payment transactions
 
 Raw data is transformed through a layered dbt architecture (staging → marts) into analytics-ready tables, with automated data quality tests at each layer.
 
@@ -65,10 +65,10 @@ dbt test --select source:*
 
 ## Tech stack
 
-- **dbt (Fusion engine)** — transformation, testing, documentation
-- **Snowflake** — cloud data warehouse
-- **SQL** — CTE-based, modular model design
-- **Git** — version control
+- **dbt (Fusion engine)** - transformation, testing, documentation
+- **Snowflake** - cloud data warehouse
+- **SQL** - CTE-based, modular model design
+- **Git** - version control
 
 ## Running the project
 
